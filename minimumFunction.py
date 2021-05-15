@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 13 00:07:34 2021
-
-@author: gopesh
-"""
-
+def minimum(ls):
+    min = 10000000
+    for i in ls:
+        if i < min:
+            min = i
+    return min
+ls = [3,6,5,9,0,7,6,1,4]
+print(minimum(ls))
