@@ -17,6 +17,7 @@ values: gopesh,99999,True,id;
 #print(d["name"][1]*3)
 d["college"] = "JNU"
 #print(d)
-d.update({"department": {"btech":"CSE"}})
-del d["department"]
+#d.update({"department": {"btech":"CSE"}})
+#del d["department"]
+d.clear()
 print(d)
