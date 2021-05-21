@@ -1,4 +1,7 @@
 def swap_case(s):
+
+    """
+    how swapcase works:::
     k = list(s)
     for i in range(len(s)):
         if k[i].isupper():
@@ -9,7 +12,8 @@ def swap_case(s):
     s = ""
     for i in k:
         s = s+i
-    return s
+    """
+    return s.swapcase()
 
 if __name__ == '__main__':
     s = input()
