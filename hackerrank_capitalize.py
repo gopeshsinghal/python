@@ -21,7 +21,7 @@ def capital(s):
     for i in t:
         string = string + i.capitalize()
         string += " "
-        return string
+    return string
 """
 
 def capital(s):
