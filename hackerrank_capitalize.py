@@ -1,4 +1,5 @@
 """
+rough work....just tried an approach
 s = input()
 s = s.split()
 #print(s)
@@ -11,6 +12,16 @@ for i in range(len(s)):
      #print(type(s[i][0]))
 print(s)
 
+"""
+"""
+another function
+def capital(s):
+    t = s.split()
+    string = ""
+    for i in t:
+        string = string + i.capitalize()
+        string += " "
+        return string
 """
 
 def capital(s):
